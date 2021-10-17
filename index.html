@@ -4,29 +4,31 @@
         <title>Belajar form html</title>
     </head>
     <body>
-        Nama : <input type="text" name="nama"><br/>
-        Alamat : <input type="text" name="alamat"><br/>
-        Password : <input type="password" name="pass"><br/>
-        Jenis Kelamin :
-            <input type="radio" name="jk" value="laki-laki">Laki-laki
-            <input type="radio" name="jk" value="perempuan">Perempuan
+        <form>
+            Nama : <input type="text" name="nama"><br/>
+            Alamat : <input type="text" name="alamat"><br/>
+            Password : <input type="password" name="pass"><br/>
+            Jenis Kelamin :
+                <input type="radio" name="jk" value="laki-laki" checked>Laki-laki
+                <input type="radio" name="jk" value="perempuan">Perempuan
+                <br/>
+            Bahasa Pemrograman yang Dikuasai :
+            <input type="checkbox" name="web">Web
+            <input type="checkbox" name="mobile">Mobile
+            <input type="checkbox" name="desktop">Desktop
             <br/>
-        Bahasa Pemrograman yang Dikuasai :
-        <input type="checkbox" name="web">Web
-        <input type="checkbox" name="mobile">Mobile
-        <input type="checkbox" name="desktop">Desktop
-        <br/>
-        Kota Asal :
-        <select>
-            <option>Semarang</option>
-            <option>Bandung</option>
-        </select>
-        <br/>
-        Pesan Anda :
-        <textarea>
+            Kota Asal :
+            <select>
+                <option>Semarang</option>
+                <option>Bandung</option>
+            </select>
+            <br/>
+            Pesan Anda :
+            <textarea>
 
-        </textarea>
-        <br/>
-        <input type="submit" value="proses">
+            </textarea>
+            <br/>
+            <input type="button" value="proses">
+        </form>
     </body>
 </html>
