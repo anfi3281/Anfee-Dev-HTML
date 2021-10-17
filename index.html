@@ -4,12 +4,16 @@
         <title>Belajar form html</title>
     </head>
     <body>
-        <!-- atribut maxlength,
-            atribut ini digunakan untuk menentukan jumlah teks yang dibatasi -->
+        <!-- atribut list,
+            atribut ini untuk menampilkan list pada form inputan -->
 
         <form>
-            Nama Depan : <input type="text" value="nama" maxlength="10"><br/>
-            Nama Belakang : <input type="text">
+            <input list="browser" name="internet">
+            <datalist id="browser">
+                <option value="chrome">
+                <option value="mozilla">
+                <option value="opera">
+            </datalist>
         </form>
 
     </body>
