@@ -4,17 +4,32 @@
         <title>Belajar form html</title>
     </head>
     <body>
-        <!-- atribut list,
-            atribut ini untuk menampilkan list pada form inputan -->
-
+        <h1>Biodata</h1>
         <form>
-            <input list="browser" name="internet">
-            <datalist id="browser">
-                <option value="chrome">
-                <option value="mozilla">
-                <option value="opera">
-            </datalist>
-        </form>
+            Nama : <input type="text" name="nama" value="nama" disabled readonly size="50px" maxlength="3"><br/>
+            Alamat : <input type="text" name="alamat"><br/>
+            Password : <input type="password" name="pass"><br/>
+            Jenis Kelamin :
+                <input type="radio" name="jk" value="laki-laki">Laki-laki
+                <input type="radio" name="jk" value="perempuan">Perempuan
+                <br/>
+            Bahasa Pemrograman yang dikuasai :
+            <input type="checkbox" name="web">Web
+            <input type="checkbox" name="mobile">Mobile
+            <input type="checkbox" name="java">Java
+            <br/>
+            Kota Asal :
+            <select>
+                <option>Bandung</option>
+                <option>Semarang</option>
+            </select>
+            <br/>
+            Pesan Anda :
+            <textarea>
 
+            </textarea>
+            <br/>
+            <input type="submit" value="Proses">
+        </form>
     </body>
 </html>
