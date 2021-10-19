@@ -1,9 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Belajar form html</title>
+        <title>Biodata</title>
     </head>
     <body>
-        
+        <h1>Biodata</h1>
+        <form>
+            Nama : <input type="text" name="nama"><br/>
+            Alamat : <input type="text" name="alamat"><br/>
+            Password : <input type="pass" name="pass"><br/>
+            Jenis Kelamin :
+                <input type="radio" name="jk" value="laki-laki">Laki-laki
+                <input type="radio" name="jk" value="perempuan">Perempuan
+                <br/>
+            Bahasa Pemrograman yang Dikuasai :
+            <input type="checkbox" name="web">Web
+            <input type="checkbox" name="mobile">Mobile
+            <input type="checkbox" name="java">Java
+            <br/>
+            Asal Kota :
+            <select>
+                <option>Pekalongan</option>
+                <option>Semarang</option>
+            </select>
+            <br/>
+            Pesan Anda :
+            <textarea>
+
+            </textarea>
+            <br/>
+            Browser : <input list="browser" name="internet">
+            <datalist id="browser">
+                <option value="chrome">
+                <option value="firefox">
+                <option value="opera">
+            </datalist>
+            <br/>
+            <input type="submit" value="Proses">
+        </form>
     </body>
 </html>
