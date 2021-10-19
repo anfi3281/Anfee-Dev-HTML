@@ -8,20 +8,29 @@
         <form>
             Nama : <input type="text" name="nama"><br/>
             Alamat : <input type="text" name="alamat"><br/>
-            Password : <input type="pass" name="pass"><br/>
-            Jenis Kelamin :
-                <input type="radio" name="jk" value="laki-laki">Laki-laki
-                <input type="radio" name="jk" value="perempuan">Perempuan
-                <br/>
-            Bahasa Pemrograman yang Dikuasai :
-            <input type="checkbox" name="web">Web
-            <input type="checkbox" name="mobile">Mobile
-            <input type="checkbox" name="java">Java
+            Password : <input type="password" name="pass"><br/>
+            Kesukaan :
+            <input type="radio" name="ks" value="membaca" checked>Membaca
+            <input type="radio" name="ks" value="mengetik">Mengetik
+            <input type="radio" name="ks" value="makan">Makan
             <br/>
-            Asal Kota :
+            Bahasa Pemrograman yang disukai :
+            <input type="checkbox" name="web" checked>Web
+            <input type="checkbox" name="android">Android
+            <input type="checkbox" name="desktop">Desktop
+            <br/>
+            Asal kota : <input list="ak" name="kota">
+            <datalist id="ak">
+                <option value="Pekalongan">
+                <option value="Semarang">
+                <option value="Bandung">
+            </datalist>
+            <br/>
+            Browser :
             <select>
-                <option>Pekalongan</option>
-                <option>Semarang</option>
+                <option>Chrome</option>
+                <option>Mozilla</option>
+                <option>Opera Mini</option>
             </select>
             <br/>
             Pesan Anda :
@@ -29,14 +38,7 @@
 
             </textarea>
             <br/>
-            Browser : <input list="browser" name="internet">
-            <datalist id="browser">
-                <option value="chrome">
-                <option value="firefox">
-                <option value="opera">
-            </datalist>
-            <br/>
-            <input type="submit" value="Proses">
+            <input type="button" value="Proses">
         </form>
     </body>
 </html>
