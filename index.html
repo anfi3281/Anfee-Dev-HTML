@@ -1,36 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Biodata</title>
+        <title>Biodata diri</title>
     </head>
     <body>
-        <h1>Biodata</h1>
+        <h1>Biodata diri</h1>
         <form>
             Nama : <input type="text" name="nama"><br/>
             Alamat : <input type="text" name="alamat"><br/>
             Password : <input type="password" name="pass"><br/>
-            Kesukaan :
-            <input type="radio" name="ks" value="membaca" checked>Membaca
-            <input type="radio" name="ks" value="mengetik">Mengetik
-            <input type="radio" name="ks" value="makan">Makan
-            <br/>
-            Bahasa Pemrograman yang disukai :
-            <input type="checkbox" name="web" checked>Web
+            Jenis Kelamin :
+                <input type="radio" name="jk" value="laki-laki" checked>Laki-laki
+                <input type="radio" name="jk" value="perempuan">Perempuan
+                <br/>
+            Bahasa Pemrograman yang Dikuasai :
+            <input type="checkbox" name="web">Web
             <input type="checkbox" name="android">Android
-            <input type="checkbox" name="desktop">Desktop
+            <input type="checkbox" name="java">Java
             <br/>
-            Asal kota : <input list="ak" name="kota">
-            <datalist id="ak">
-                <option value="Pekalongan">
-                <option value="Semarang">
-                <option value="Bandung">
+            Browser : 
+            <input list="browser" name="internet">
+            <datalist id="browser">
+                <option value="chrome">
+                <option value="mozilla">
+                <option value="opera">
             </datalist>
             <br/>
-            Browser :
+            Kota Asal : 
             <select>
-                <option>Chrome</option>
-                <option>Mozilla</option>
-                <option>Opera Mini</option>
+                <option>Bandung</option>
+                <option>Semarang</option>
             </select>
             <br/>
             Pesan Anda :
@@ -38,7 +37,7 @@
 
             </textarea>
             <br/>
-            <input type="button" value="Proses">
+            <input type="submit" value="Proses">
         </form>
     </body>
 </html>
