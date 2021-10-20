@@ -1,0 +1,26 @@
+h1{
+    color: orange;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.kotak{
+    padding: 50px;
+    background: purple;
+    width: 500px;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+#kotak{
+    background: lavender;
+    width: 100px;
+    padding: 70px;
+    margin: auto;
+    text-align: center;
+    color: orange;
+    border: 10px solid red;
+    font-family: sans-serif;
+    font-weight: bold;
+}
