@@ -1,19 +1,15 @@
-.link{
+.contoh-link,
+.contoh-link:link,
+.contoh-link:active,
+.contoh-link:visited{
     font-size: 20pt;
+    background: #1ABC9C;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
 }
 
-.link:hover{
-    color: red;
-}
-
-.link:link{
-    color: gray;
-}
-
-.link:active{
-    color: green;
-}
-
-.link:visited{
-    background: yellow;
+.contoh-link:hover{
+    background: #16A085;
 }
