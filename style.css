@@ -8,8 +8,18 @@
     text-decoration: none;
     padding: 10px;
     font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contoh-link:hover{
     background: #16A085;
+}
+
+.kt{
+    margin-left: auto;
+    margin-right: auto;
+    width: cover;
+    display: block;
+    text-align:center;
 }
